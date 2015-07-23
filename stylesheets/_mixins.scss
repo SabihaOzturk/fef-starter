@@ -12,3 +12,7 @@
 @mixin clear{
   clear: both;
 }
+
+@mixin verticalGradient($fromColor, $toColor) {
+  background-image: linear-gradient(to top, $fromColor, $toColor);
+}
