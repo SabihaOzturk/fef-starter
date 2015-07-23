@@ -1,3 +1,24 @@
+#page-header h1, #page-header #navbar a, #navbar #page-header a {
+  font-family: Helvetica, sans; }
+
+#navbar ul {
+  margin: 0;
+  padding: 0; }
+#navbar li {
+  list-style: none;
+  float: left; }
+#navbar a {
+  color: #ec7705;
+  display: block;
+  margin-right: 5px;
+  padding: 15px 10px;
+  font-size: 22px;
+  background-color: #ccc;
+  text-decoration: none; }
+
+.clear {
+  clear: both; }
+
 #example-rounded {
   cursor: pointer;
   border-radius: 7px;

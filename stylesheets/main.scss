@@ -1,4 +1,5 @@
 @import 'jr-framework';
+@import 'navbar';
 
 #example-rounded{
   @include rounded-button(7px);
